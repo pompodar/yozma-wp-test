@@ -1,0 +1,109 @@
+html {
+  scroll-behavior: smooth;
+
+  @media (min-width: 1440px) {
+    font-size: 1px;
+  }
+
+  font-size: calc(100vw / var(--desktop)); // 1
+  
+  @media (max-width: 1280px) {
+    font-size: calc(100vw / var(--desktop-small));
+  }
+
+  @media (max-width: 768px) {
+    font-size: calc(100vw / var(--mobile));
+  }
+}
+
+body {
+  font-family: var(--font-family);
+  font-weight: 400;
+  font-size: 18rem;
+  line-height: 1;
+  letter-spacing: 0.5rem;
+  background-color: white;
+  color: var(--main-color);
+  overflow-x: hidden;
+}
+
+body.overflow-hidden {
+  overflow: hidden;
+}
+
+main, header, footer {
+    max-width: var(--container);
+    margin: 0 auto;
+}
+
+b {
+  font-weight: 700;
+}
+
+p, h1, h2 , h3, h4 {
+  a {
+      text-decoration: underline;
+    }
+}
+
+b, strong {
+  font-weight: 700;
+}
+
+em {
+  font-style: italic;
+}
+
+.container {
+  max-width: var(--container);
+  padding: 0 124rem;
+  margin: 0 auto;
+  z-index: 1;
+  position: relative;
+
+  @media (max-width: 768px) {
+    padding: 0 24rem;
+  }
+}
+
+.button {
+  display: block;
+  width: max-content;
+  border: transparent 2rem solid;
+  padding: 16rem 41rem 14rem 41rem;
+  border-radius: 14rem;
+  line-height: 120%;
+  background-color: var(--bg-color);
+  font-size: 22rem;
+  font-weight: 700;
+  color: var(--secondary-color);
+  transition: background-color 0.5s, border 0.5s;
+
+  &:hover {
+    background-color: var(--tertiary-bg);
+    border: var(--bg-color) 2rem solid;
+    padding: 16rem 41rem 14rem 41rem;
+  }
+}
+
+.error404 {
+  main {
+    padding: 0 124rem;
+
+    @media (max-width: 768px) {
+      padding: 0 24rem;
+    }
+  }
+}
+
+.page_404 {
+  min-height: 400rem;
+  padding: 18rem 0;
+  font-size: 32rem;
+  margin: 0 auto;
+  width: max-content;
+
+  @media (max-width: 768px) {
+    padding-top: 34rem;
+  }
+}

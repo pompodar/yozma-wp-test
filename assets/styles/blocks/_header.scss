@@ -1,0 +1,344 @@
+.header {
+  position: sticky;
+  top: 0;
+  background-color: var(--tertiary-bg);
+  z-index: 100;
+
+  ol li, ul li, ol, ul {
+      list-style: none;
+  }
+
+  ul,
+  ul li {
+    margin-left: 0;
+  }
+
+  .banner {
+    background-color: #E44746;
+    max-width: 1920rem;
+    height: 70rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    @media (max-width: 768px) {
+      flex-wrap: wrap;
+      height: 112rem;
+    }
+
+    p {
+      color: #FCF9F1;
+      font-size: 18rem;
+      line-height: 120%;
+      margin-right: 40rem;
+
+      @media (max-width: 768px) {
+        width: 269rem;
+        font-size: 12rem;
+        text-align: center;
+        margin: 0 auto;
+        margin-bottom: -30rem;
+      }
+    }
+
+    a {
+      color: #FCF9F1;
+      font-size: 18rem;
+      line-height: 120%;
+      border-radius: 7rem;
+      border: 1rem solid #FFF;
+      padding: 8rem 17rem;
+      margin-right: 10rem;
+      transition: all 0.5s;
+
+      &:hover {
+        color: #E44746;
+        background-color: #FFF;
+      }
+
+      @media (max-width: 768px) {
+        font-size: 14rem;
+        margin: 0 7rem;
+      }
+    }
+  }
+
+  @media (max-width: 768px) {
+  }
+
+  &__desktop {
+    @media (max-width: 768px) {
+      display: none;
+    }
+  }
+
+  &__inner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 45rem;
+    padding-bottom: 28rem;
+
+    a {
+        transition: all 0.5s;
+    
+      &:hover {
+        color: var(--bg-color);
+      }
+    }
+  }
+
+  &__left {
+    display: flex;
+    gap: 115rem;
+    align-items: center;
+
+    ul.menu {
+      display: flex;
+      gap: 50rem;
+
+      > hr {
+        display: none;
+      }
+
+      > li:hover .sub-menu-wrapper {
+        display: block;
+      }
+
+    > li {
+      display: inline-block;
+      position: relative;
+
+      > a {
+        display: block;
+        font-weight: 700;
+        font-size: 22rem;
+        line-height: 120%;
+      }
+    }
+  
+    .sub-menu-wrapper {
+      display: none;
+      position: absolute;
+      min-width: 262rem;
+      top: 100%;
+      left: -28rem;
+      font-weight: 700;
+      font-size: 20rem;
+      line-height: 120%;
+      background-color: transparent;
+
+      .sub-menu {
+        display: block;
+        padding: 24rem 28rem;
+        background-color: var(--secondary-color);
+        margin-top: 42rem;
+        border-radius: 10rem;
+        box-shadow: 0 10rem 25rem 0 rgba(0, 0, 0, 0.06);
+        position: relative;
+
+        li {
+          font-size: 20rem;
+        }
+
+        &::before {
+          content: "";
+          width: 33.941rem;
+          height: 33.941rem;
+          transform: rotate(45deg);
+          position: absolute;
+          top: -9rem;
+          left: 50rem;
+          z-index: -1;
+          border-radius: 2px;
+          background: #FFF;
+          box-shadow: 0px 10px 25px 0px rgba(0, 0, 0, 0.06);
+        }
+
+        li {
+          padding: 16rem 0;
+        }
+
+        hr {
+          color: var(--footer-bg);
+          height: 1rem;
+          opacity: 0.15;
+        }
+
+        hr:last-child {
+          display: none;
+        }
+      }
+  }
+ }
+}
+
+  &__right {
+    display: flex;
+    gap: 40rem;
+    align-items: center;
+  
+    & span,
+    & .button {
+      @media (max-width: 768px) {
+        display: none;
+      }
+    }
+
+    .header__phone-info {
+      font-weight: 400;
+      font-size: 20rem;
+
+      &::before {
+        content: "";
+        display: block;
+        float: left;
+        margin-top: 4rem;
+        width: 36rem;
+        height: 36rem;
+        background: url("../../images/call.svg") no-repeat;
+        background-size: contain;
+      }
+
+      &__inner {
+        margin-left: 46rem;
+
+        span {
+          display: block;
+        }
+
+        .phone-number {
+          font-weight: 700;
+          font-size: 24rem;
+        }
+      }
+    }
+  }
+
+  &__mobile {
+
+    display: flex;
+    flex-direction: column;
+
+    @media (min-width: 768px) {
+      display: none;
+    }
+
+    &__top {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding-block: 24rem;
+    }
+
+    &__logo {
+      width: 36rem;
+      height: 36rem;
+    }
+
+    &__contacts {
+      display: flex;
+      align-items: center;
+      gap: 14rem;
+      margin-left: auto;
+      margin-right: 18rem;
+    }
+
+    &__mail {
+      width: 24rem;
+      height: 24rem;
+    }
+
+    &__phone {
+      width: 24rem;
+      height: 24rem;
+    }
+
+    &__hamburger {
+      width: 36rem;
+
+      .hamburger-closed {
+        display: none;
+      }
+    }
+
+    &__hamburger.open {
+      .hamburger-open {
+        display: none;
+      }
+
+      .hamburger-closed {
+        display: block;
+      }
+    }
+
+    &__bottom {
+      overflow: hidden;
+      height: 0;
+      transition: all 0.5s;
+
+      .header-menu {
+        text-align: center;
+        font-weight: 700;
+        font-size: 24rem;
+        line-height: 120%;
+        margin-block: 37rem;
+
+        ul {
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+          align-items: center;
+          gap: 25rem;
+
+          > li {
+            display: block;
+            width: max-content;
+            font-size: 24rem;
+          }
+
+          .sub-menu {
+            display: none;
+            margin-top: 19rem;
+            font-size: 18rem;
+            line-height: 120%;
+            gap: 14rem;
+            color: rgba(70, 92, 109, 0.50);
+
+            li {
+              font-size: 18rem;
+            }
+          }
+
+          .sub-menu.open {
+            display: flex;
+          }
+        }
+
+        hr {
+          display: none;
+        }
+      }
+
+      .header__mobile__social-links {
+        display: flex;
+        justify-content: center;
+        gap: 7rem;
+        align-items: center;
+        padding: 0 24rem;
+
+        a {
+          width: 61rem;
+          height: 61rem;
+        }
+      }
+    }
+
+    &__bottom.show {
+      height: 91vh;
+    }
+
+  }
+
+}
+

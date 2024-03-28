@@ -1,0 +1,9 @@
+@import 'common/reset';
+@import 'common/variables';
+@import 'common/global';
+@import 'common/single';
+@import 'common/page';
+
+/** Import theme styles */
+@import 'components/**/*';
+@import 'blocks/**/*';

@@ -1,0 +1,112 @@
+.cards {
+  &__inner {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 88rem;
+    margin-bottom: 72rem;
+  
+    @media (max-width: 768px) {
+      margin-top: 38rem;
+      margin-bottom: 48rem;
+      flex-direction: column;
+      gap: 26rem;
+    }
+
+      .cards__card {
+        width: 817rem;
+        min-height: 285rem;
+        height: max-content;
+        position: relative;
+        border-radius: 10rem;
+        background: #FFF;
+        box-shadow: 0 10rem 25rem 0 rgba(0, 0, 0, 0.06);
+        padding: 52rem 80rem 50rem 42rem;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+        @media (max-width: 1440px) {
+          width: 760rem;
+        }
+
+        @media (max-width: 768px) {
+          margin-top: 0;
+          width: 312rem;
+          height: 290rem;
+          flex-direction: column-reverse;
+          align-items: flex-start;
+          padding: 20rem 22rem 27rem 22rem;
+        }
+
+        .cards__card__heading {
+          font-size: 32rem;
+          font-weight: 700;
+          line-height: 120%;
+          margin-bottom: 15rem;
+          display: inline-block;
+          color: #475C6C;
+          z-index: 1;
+          position: relative;
+
+          @media (max-width: 768px) {
+            font-size: 20rem;
+            padding-top: 21rem;
+          }
+        }
+
+        .cards__card__paragraph {
+          font-size: 16rem;
+          line-height: 120%;
+          margin-top: 15rem;
+          margin-bottom: 41rem;
+          display: inline-block;
+          width: 512rem;
+          color: var(--footer-bg);
+
+          @media (max-width: 1440px) {
+            max-width: 283rem;
+          }
+
+          @media (max-width: 768px) {
+            font-size: 12rem;
+            margin-bottom: 22rem;
+            width: 100%;
+          }
+        }
+
+        .cards__card__button {
+          font-size: 16rem;
+          line-height: 150%;
+          font-weight: 700;
+          transition: all 0.5s;
+          color: #FD8D1C;
+          display: block;
+
+          @media (max-width: 768px) {
+            font-size: 14rem;
+            width: 184rem;
+          }
+
+          &:hover {
+            color: var(--bg-color);
+          }
+
+          &.no-hover {
+            color: #FD8D1C;
+          }
+        }
+
+        .cards__right {
+          width: 92rem;
+
+          @media (max-width: 768px) {
+            width: 49rem;
+          }
+
+          img {
+            object-fit: contain;
+          }
+        }
+      }
+    }
+}

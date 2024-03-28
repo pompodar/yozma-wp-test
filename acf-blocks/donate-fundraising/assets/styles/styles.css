@@ -1,0 +1,263 @@
+.fundraising {
+  background: -webkit-gradient(linear, left bottom, left top, from(#0095A9), to(#0095A9));
+  background: linear-gradient(0deg, #0095A9 0%, #0095A9 100%);
+  padding-bottom: 155rem;
+  margin-top: 137rem;
+  margin-bottom: 174rem;
+}
+
+@media (max-width: 768px) {
+  .fundraising {
+    margin-top: 97rem;
+    margin-bottom: 60rem;
+    padding-bottom: 36rem;
+  }
+}
+
+.fundraising__inner {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  color: #FCF9F1;
+}
+
+@media (max-width: 768px) {
+  .fundraising__inner {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+}
+
+.fundraising__inner .fundraising__row-left {
+  margin-right: auto;
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+@media (max-width: 768px) {
+  .fundraising__inner .fundraising__row-left {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+}
+
+.fundraising__inner .fundraising__row-left .fundraising__heading {
+  font-size: 48rem;
+  font-weight: 700;
+  margin-top: 155rem;
+  display: inline-block;
+  padding-bottom: 30rem;
+  position: relative;
+}
+
+@media (max-width: 768px) {
+  .fundraising__inner .fundraising__row-left .fundraising__heading {
+    margin-top: 42rem;
+    font-size: 28rem;
+    padding-bottom: 22rem;
+  }
+}
+
+.fundraising__inner .fundraising__row-left .fundraising__heading::before {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 81.5rem;
+  height: 5rem;
+  background-color: #D54443;
+}
+
+@media (max-width: 768px) {
+  .fundraising__inner .fundraising__row-left .fundraising__heading::before {
+    height: 3rem;
+  }
+}
+
+.fundraising__inner .fundraising__row-left .fundraising__paragraph {
+  font-size: 24rem;
+  line-height: 120%;
+  font-weight: 700;
+  max-width: 770rem;
+  margin-top: 48rem;
+  margin-bottom: 39rem;
+}
+
+@media (max-width: 768px) {
+  .fundraising__inner .fundraising__row-left .fundraising__paragraph {
+    font-size: 14rem;
+    margin-top: 26rem;
+    margin-bottom: 15rem;
+    max-width: 302.501px;
+  }
+}
+
+.fundraising__inner .fundraising__row-left .fundraising__paragraph-two, .fundraising__inner .fundraising__row-left .fundraising__paragraph-three {
+  font-size: 24rem;
+  font-weight: 400;
+  line-height: 120%;
+  margin-block: 20rem;
+  max-width: 747rem;
+}
+
+@media (max-width: 768px) {
+  .fundraising__inner .fundraising__row-left .fundraising__paragraph-two, .fundraising__inner .fundraising__row-left .fundraising__paragraph-three {
+    font-size: 12rem;
+    margin-block: 15rem;
+    max-width: 302.501rem;
+  }
+}
+
+.fundraising__inner .fundraising__row-left .fundraising__image {
+  background: #FFF;
+  margin-top: 68rem;
+  width: 385rem;
+  height: 167.075rem;
+  border-radius: 10rem;
+  -webkit-box-shadow: 0 10rem 25rem 0rem rgba(0, 0, 0, 0.06);
+          box-shadow: 0 10rem 25rem 0rem rgba(0, 0, 0, 0.06);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+@media (max-width: 768px) {
+  .fundraising__inner .fundraising__row-left .fundraising__image {
+    margin-top: 26rem;
+    width: 167rem;
+    height: 72rem;
+  }
+}
+
+.fundraising__inner .fundraising__row-left .fundraising__image img {
+  width: 257.877rem;
+  height: 78.09rem;
+}
+
+@media (max-width: 768px) {
+  .fundraising__inner .fundraising__row-left .fundraising__image img {
+    width: 113rem;
+    height: 34rem;
+  }
+}
+
+.fundraising .fundraising__row-right {
+  margin-left: auto;
+  margin-top: 108rem;
+  width: 765rem;
+}
+
+@media (max-width: 768px) {
+  .fundraising .fundraising__row-right {
+    margin-top: 50rem;
+    width: 100%;
+  }
+}
+
+.fundraising .fundraising__row-right .list__item {
+  border-bottom: #FFF 1rem solid;
+}
+
+.fundraising .fundraising__row-right .list__item:last-child {
+  border-bottom: none;
+}
+
+.fundraising .fundraising__row-right .list__item__visual {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.fundraising .fundraising__row-right .list__item__visual .list__item__plus {
+  background-color: transparent;
+  border: none;
+}
+
+.fundraising .fundraising__row-right .list__item__visual .list__item__plus:before {
+  content: "";
+  background: url("../../../../assets/images/add-white.svg") no-repeat;
+  width: 54rem;
+  height: 54rem;
+  display: inline-block;
+  background-size: contain;
+}
+
+@media (max-width: 768px) {
+  .fundraising .fundraising__row-right .list__item__visual .list__item__plus:before {
+    width: 24rem;
+    height: 24rem;
+  }
+}
+
+.fundraising .fundraising__row-right .list__item__visual .minus::before {
+  background: url("../../../../assets/images/add-minus-white.svg") no-repeat;
+  background-size: contain;
+}
+
+.fundraising .fundraising__row-right .list__item__heading {
+  font-size: 42rem;
+  padding: 47rem 34rem 47rem 50rem;
+}
+
+@media (max-width: 768px) {
+  .fundraising .fundraising__row-right .list__item__heading {
+    font-size: 20rem;
+    padding: 24rem 0;
+  }
+}
+
+.fundraising .fundraising__row-right .list__item__paragraph {
+  font-size: 42rem;
+  max-width: 611rem;
+  font-size: 24rem;
+  line-height: 120%;
+  max-height: 0;
+  padding-left: 50rem;
+  overflow: hidden;
+  opacity: 0;
+  -webkit-transition: opacity 0.5s, max-height 0.2s, padding-bottom 0.5s, padding-top 0.5s;
+  transition: opacity 0.5s, max-height 0.2s, padding-bottom 0.5s, padding-top 0.5s;
+}
+
+@media (max-width: 768px) {
+  .fundraising .fundraising__row-right .list__item__paragraph {
+    font-size: 14rem;
+    padding-left: 0;
+  }
+}
+
+.fundraising .fundraising__row-right .open {
+  opacity: 1;
+  max-height: 100%;
+  padding-top: 0;
+  padding-bottom: 47rem;
+}
+
+.fundraising .fundraising__row-right .open-mobile {
+  opacity: 1;
+  max-height: 100%;
+  padding-bottom: 24rem;
+}
+/*# sourceMappingURL=styles.css.map */

@@ -1,0 +1,112 @@
+.list {
+  &__inner {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 82rem;
+    margin-bottom: 143rem;
+
+    @media (max-width: 768px) {
+      margin-top: 80rem;
+      margin-bottom: 35rem;
+    }
+
+    .list__item {
+      width: 100%;
+      border-bottom: 1rem rgba(71, 92, 108, 0.25) solid;
+      
+      .list__item__visual {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 58rem 34rem 53rem 51rem;
+
+        @media (max-width: 768px) {
+          padding: 24rem 14rem;
+        }
+      }
+    }
+
+    .list__item {
+      .list__item__paragraph {
+          width: 70%;
+      
+          @media (max-width: 768px) {
+            width: 100%;
+          }
+        }
+    }
+
+    .list__item:last-child {
+      border: none;
+    }
+
+    .list__item__heading {
+      font-size: 32rem;
+      font-weight: 700;
+      position: relative;
+      color: #475C6C;
+
+      @media (max-width: 768px) {
+        font-size: 20rem;
+      }
+    }
+
+    .list__item__plus {
+      background-color: transparent;
+      border: none;
+    }
+
+    .list__item__plus:before {
+      content: "";
+      background: url("../../../../assets/images/add.svg") no-repeat;
+      width: 54rem;
+      height: 54rem;
+      display: inline-block;
+      background-size: contain;
+
+
+      @media (max-width: 768px) {
+        width: 24rem;
+        height: 24rem;
+      }
+    }
+
+    .minus::before {
+      background: url("../../../../assets/images/add-minus-orange.svg") no-repeat;
+      background-size: contain;
+    }
+  
+    .list__item__paragraph {
+        font-size: 24rem;
+        max-height: 0;
+        overflow: hidden;
+        line-height: 120%;
+        padding-left: 51rem; 
+        padding-right: 34rem;
+        opacity: 0;
+        transition: opacity 0.5s, max-height 0.2s, padding-bottom 0.5s, padding-top 0.5s;
+        
+        @media (max-width: 768px) {
+          padding-inline: 14rem;
+          padding-top: 0;
+          font-size: 14rem;
+        }
+    }
+
+    .open {
+      opacity: 1;
+      max-height: 100%;
+      padding-top: 0;
+      padding-bottom: 53rem;
+    }
+
+    .open-mobile {
+      opacity: 1;
+      max-height: 100%;
+      padding-bottom: 24rem;
+    }
+  }
+}
+

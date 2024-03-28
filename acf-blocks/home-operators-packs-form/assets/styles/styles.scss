@@ -1,0 +1,280 @@
+.packs-form {
+  &__inner {
+    display: flex;
+    flex-direction: column;
+    margin-top: 170rem;
+    margin-bottom: 120rem;
+    
+    @media (max-width: 768px) {
+      margin-top: 59rem;
+      margin-bottom: 68rem;
+    }
+
+    .packs-form__row-top {
+      display: flex;
+      flex-direction: column;
+
+      @media (max-width: 768px) {
+        flex-direction: column;
+      }
+
+      .packs-form__heading {
+        font-size: 48rem;
+        font-weight: 700;
+        display: inline-block;
+        padding-bottom: 40rem;
+        position: relative;
+
+        @media (max-width: 768px) {
+          font-size: 28rem;
+          padding-bottom: 18rem;
+        }
+
+        &::before {
+          content: "";
+          position: absolute;
+          bottom: 0;
+          left: 0;
+          width: 81.5rem;
+          height: 5rem;
+          background-color: #D54443;
+
+          @media (max-width: 768px) {
+            height: 3rem;  
+          }
+        }
+      }
+
+      .packs-form__paragraphs {
+        display: flex;
+        justify-content: space-between;
+        margin-top: 74rem;
+
+        @media (max-width: 768px) {
+          flex-direction: column;
+          gap: 14rem;
+          margin-top: 26rem;
+          margin-bottom: 40rem;
+        }
+      }
+
+      .packs-form__paragraph {
+        font-size: 24rem;
+        line-height: 120%;
+        max-width: 801rem;
+
+        @media (max-width: 768px) {
+          font-size: 14rem;
+        }
+      }
+    }
+
+    .packs-form__row-bottom {
+      margin-top: 84rem;
+      flex-wrap: wrap;
+      border-radius: 10px;
+      background: #FFF;
+      box-shadow: 0px 10px 25px 0px rgba(0, 0, 0, 0.06);
+      padding-top: 81rem;
+      padding-bottom: 94rem;
+      padding-inline: 60rem;
+     
+      @media (max-width: 768px) {
+        margin: 0;
+        padding-top: 23rem;
+        padding-inline: 26rem;
+        padding-bottom: 35rem;
+      }     
+      
+      .packs__form__fieldset {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        gap: 38rem;
+        margin-bottom: 86rem;
+
+        @media (max-width: 768px) {
+          flex-direction: column;
+          gap: 18rem;
+          margin-bottom: 38rem;
+        }
+
+        &__item {
+          width: 742rem;
+          display: flex;
+          flex-direction: column;
+          gap: 18rem;
+
+          @media (max-width: 1440px) {
+            width: 672rem;
+          }
+
+          @media (max-width: 768px) {
+            width: 100%;
+            gap: 10rem;
+          }
+
+          label {
+            color: #475C6C;
+            font-size: 18rem;
+            font-weight: 700;
+            line-height: 120%;
+
+            @media (max-width: 768px) {
+              font-size: 14rem;
+            }
+          }
+
+          input {
+            width: 100%;
+            height: 60rem;
+            border-radius: 14rem;
+            border: 2rem solid #475C6C;
+            font-size: 18rem;
+            font-weight: 700;
+            line-height: 120%;
+            color: #475C6C;
+            padding-inline: 14rem; 
+
+            @media (max-width: 768px) {
+              padding-inline: 12rem;
+              height: 48rem;
+            }
+          }
+        }
+
+        .gdpr-text__label {
+          display: flex;
+          flex-direction: row;
+          margin-top: 38rem;
+          font-size: 18rem;
+          line-height: 120%;
+          gap: 12rem;
+
+          @media (max-width: 768px) {
+            margin-top: 0;
+            font-size: 14rem;
+          }
+
+          input {
+            font-family: "FSAlbert Regular", sans-serif;
+            width: 16rem;
+            height: 16rem;
+            border-radius: 4rem;
+            border: 1rem solid #3D5567;
+          }
+        }
+      }
+    }
+  }
+
+  .packs-form__send-button {
+      pointer-events: none;
+      cursor: auto;
+  }
+
+    .packs-form__send-button {
+      margin-top: 74rem;
+      width: 100%;
+      display: flex;
+      justify-content: center;
+  
+      @media (max-width: 768px) {
+        margin-top: 0;
+      }
+  
+      &__inner {
+        color: #FCF9F1;
+        font-size: 18rem;
+        font-weight: 700;
+        line-height: 120%;
+        padding: 18rem 24rem;
+        padding-right: 60rem;
+        border-radius: 14rem;
+        border: none;
+        transition: all 0.5s;
+        display: block;
+        margin: 0 auto;
+        background-color: #FD8D1C;
+        position: relative;
+
+        &:before {
+          content: "";
+          background: url("../../../../assets/images/arrow-circle-down-orange.svg") no-repeat;
+          width: 24rem;
+          height: 24rem;
+          display: inline-block;
+          background-size: contain;
+          margin-top: -2rem;
+          margin-right: 22rem;
+          position: absolute;
+          right: 0;
+
+          @media (max-width: 768px) {
+            margin-top: 0;
+            width: 20rem;
+            height: 20rem;
+          }
+        }
+
+        &:hover {
+          background-color: var(--tertiary-bg);
+          transition: all 0.5s;
+        }
+
+        @media (max-width: 768px) {
+          margin: 0;
+          font-size: 14rem;
+          padding: 12rem 18rem;
+          padding-right: 60rem;
+        }
+  
+        &:hover {
+          color: var(--bg-color);
+          transition: all 0.5s;
+        }
+
+        &:hover:before {
+          background: url("../../../../assets/images/slider-right-arrow-red.svg") no-repeat;
+          background-size: contain;
+          transition: all 0.5s;
+          transform: rotate(0deg);
+        }
+      }
+    }
+}
+
+.loader {
+  border: #0095A9; 
+  border-top: 8px solid #0095A9; 
+  border-radius: 50%;
+  width: 10px;
+  height: 10px;
+  animation: spin 1s linear infinite;
+  margin: 5px auto;
+  display: none; 
+
+  @media (max-width: 768px) {
+      margin: 18px auto;
+  }
+}
+
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+
+.error-message, .success-message {
+    margin-top: 18rem;
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 120%;
+}
+
+.error-message {
+    color: #FD8D1C;
+}
+
+.success-message {
+    color: #0095A9;
+}

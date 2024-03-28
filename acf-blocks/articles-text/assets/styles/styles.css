@@ -1,0 +1,14 @@
+.single-post main .text ol, .single-post main .text ul, .page .text ol, .page .text ul {
+  padding: 0 24rem;
+  margin-top: -50rem;
+  margin-bottom: 18rem;
+}
+
+@media (max-width: 768px) {
+  .single-post main .text ol, .single-post main .text ul, .page .text ol, .page .text ul {
+    padding: 0 24rem;
+    margin-top: -26rem;
+    margin-bottom: 16rem;
+  }
+}
+/*# sourceMappingURL=styles.css.map */

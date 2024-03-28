@@ -1,0 +1,58 @@
+.reach-out {
+  padding-top: 200rem;
+  padding-bottom: 130rem;
+  position: relative;
+}
+@media (max-width: 768px) {
+  .reach-out {
+    margin-top: 67rem;
+    padding-top: 73rem;
+    padding-bottom: 30rem;
+  }
+}
+.reach-out__background {
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  -webkit-clip-path: polygon(0 25%, 100% 0, 100% 100%, 0% 100%);
+          clip-path: polygon(0 25%, 100% 0, 100% 100%, 0% 100%);
+}
+@media (max-width: 768px) {
+  .reach-out__background {
+    -webkit-clip-path: polygon(0 23%, 100% 0, 100% 100%, 0% 100%);
+            clip-path: polygon(0 23%, 100% 0, 100% 100%, 0% 100%);
+  }
+}
+.reach-out__inner {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.reach-out__inner .reach-out__heading {
+  text-align: center;
+  font-size: 24rem;
+  display: inline-block;
+  position: relative;
+  max-width: 624px;
+  line-height: 120%;
+  color: var(--tertiary-bg);
+}
+@media (max-width: 768px) {
+  .reach-out__inner .reach-out__heading {
+    font-size: 14rem;
+    width: 265rem;
+  }
+}
+.reach-out__inner .reach-out__heading span {
+  font-weight: 700;
+}
+
+/*# sourceMappingURL=blog-reach-out.css.map*/

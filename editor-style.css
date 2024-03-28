@@ -1,0 +1,55 @@
+body#tinymce.wp-editor {
+    margin: 10px;
+}
+
+body#tinymce.wp-editor h1 {
+    font-size: 24px;
+    font-weight: 700;
+}
+
+body#tinymce.wp-editor h2 {
+    font-size: 22px;
+    font-weight: 700;
+}
+
+body#tinymce.wp-editor h3 {
+    font-size: 20px;
+    font-weight: 700;
+}
+
+body#tinymce.wp-editor h4 {
+    font-size: 18px;
+    font-weight: 700;
+}
+
+body#tinymce.wp-editor h5 {
+    font-size: 16px;
+    font-weight: 700;
+}
+
+body#tinymce.wp-editor h6 {
+    font-size: 14px;
+    font-weight: 700;
+}
+
+body#tinymce.wp-editor p, body#tinymce.wp-editor {
+    font-size: 14px;
+}
+
+body#tinymce.wp-editor ul, body#tinymce.wp-editor ol {
+    padding-top: 18rem;
+    padding-bottom: 18rem;
+}
+
+body#tinymce.wp-editor ul,
+body#tinymce.wp-editor ol {
+    margin-left: 8px;
+} 
+
+body#tinymce.wp-editor ul, body#tinymce.wp-editor ul li {
+    list-style: disc;
+}
+
+body#tinymce.wp-editor ol, body#tinymce.wp-editor ol li {
+    list-style: number;
+}

@@ -1,0 +1,223 @@
+.downloads {
+  &__inner {
+    display: flex;
+    flex-direction: column;
+    margin-top: 120rem;
+    margin-bottom: 192rem;
+    
+    @media (max-width: 768px) {
+      margin-top: 68rem;
+      margin-bottom: 97rem;
+    }
+
+    .downloads__row-top {
+      display: flex;
+      justify-content: space-between;
+      align-items: flex-start;
+
+      @media (max-width: 768px) {
+        flex-direction: column;
+      }
+
+      .downloads__heading {
+        font-size: 48rem;
+        font-weight: 700;
+        display: inline-block;
+        padding-bottom: 40rem;
+        position: relative;
+
+        @media (max-width: 768px) {
+          font-size: 28rem;
+          padding-bottom: 18rem;
+        }
+
+        &::before {
+          content: "";
+          position: absolute;
+          bottom: 0;
+          left: 0;
+          width: 81.5rem;
+          height: 5rem;
+          background-color: #D54443;
+
+          @media (max-width: 768px) {
+            height: 3rem;  
+          }
+        }
+      }
+    }
+
+    .downloads__row-bottom {
+      margin-top: 73rem;
+      position: relative;
+      display: flex;
+      justify-content: space-between;
+      flex-wrap: wrap;
+      gap: 30rem;
+     
+      @media (max-width: 768px) {
+        margin-top: 0;
+        flex-direction: column;
+        gap: 36rem;
+      }
+
+      .downloads__row-bottom__card:nth-child(4) img {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        width: 469rem;
+        object-fit: contain;
+
+        @media (max-width: 768px) {
+          width: 288rem;
+        }
+      }
+
+      .downloads__row-bottom__card:hover {
+        &::before {
+            content: "";
+            background: url("../../../../assets/images/download.svg") no-repeat;
+            width: 197rem;
+            height: 77.681rem;
+            display: inline-block;
+            background-size: contain;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            position: absolute;
+            z-index: 1;;
+        
+            @media (max-width: 768px) {
+              width: 20rem;
+              margin-top: -2rem;
+            }
+          }
+      }
+      
+      .downloads__row-bottom__card {
+        margin-bottom: 84rem;
+        width: 527rem;
+        height: 527rem;
+        padding: 370rem 0 0 0;        
+        border-radius: 5rem;
+        position: relative;
+        background-color: #0095A9;
+
+        @media (max-width: 1440px) {
+          width: 480rem;
+        }
+
+        @media (max-width: 768px) {
+          padding: 111rem 0 0 0;
+          margin-bottom: 31rem;
+          margin-top: 0;
+          width: 312rem;
+          height: 308rem;
+        }
+
+        .downloads__row-bottom__card__background {
+          position: absolute;
+          top: 0;
+          left: 0;
+          bottom: 0;
+          right: 0;
+        }
+
+        .downloads__row-bottom__card-two__background {
+          clip-path: polygon(0 0, 100% 0, 100% 49%, 0 46%);
+
+          @media (max-width: 768px) {
+            clip-path: polygon(0 0, 100% 0, 100% 29%, 0 26%);
+          }
+        }
+
+        &__heading {
+          font-size: 32rem;
+          font-weight: 700;
+          line-height: 120%;
+          margin-bottom: 15rem;
+          display: inline-block;
+          color: var(--tertiary-bg);
+          padding-left: 70rem;
+          z-index: 1;
+          position: relative;
+
+          @media (max-width: 768px) {
+            font-size: 20rem;
+            padding-left: 26rem;
+          }
+        }
+
+        &__paragraph {
+          font-size: 16rem;
+          line-height: 120%;
+          margin-bottom: 36rem;
+          display: inline-block;
+          color: var(--tertiary-bg);
+          padding-left: 70rem;
+          z-index: 1;
+          position: relative;
+
+          @media (max-width: 768px) {
+            font-size: 12rem;
+            padding-left: 26rem;
+            margin-bottom: 22rem;
+          }
+        }
+
+        &__button {
+          margin-top: 127rem;
+          font-size: 18rem;
+          line-height: 120%;
+          font-weight: 700;
+          transition: all 0.5s;
+          color: var(--tertiary-bg);
+          background-color: #FD8D1C;
+          width: 100%;
+          height: 111rem;
+          display: block;
+          padding: 49rem 39rem 40rem 70rem;
+          clip-path: polygon(0 0, 100% 10%, 100% 90%, 0% 100%);
+          white-space: nowrap;
+
+          @media (max-width: 768px) {
+            font-size: 14rem;
+            margin-top: 155rem;
+            padding: 27rem 57rem 21rem 26rem;
+            width: 100%;;
+            height: 65rem;
+          }
+    
+          &:hover {
+            // color: var(--bg-color);
+          }
+
+          &::after {
+            content: "";
+            background: url("../../../../assets/images/arrow-circle-down-white.svg") no-repeat;
+            width: 24rem;
+            height: 24rem;
+            display: inline-block;
+            background-size: contain;
+            margin-top: -1rem;
+            margin-left: 18rem;
+            position: absolute;
+
+            @media (max-width: 768px) {
+              width: 20rem;
+              margin-top: -2rem;
+            }
+          }
+        }
+      }
+
+      .downloads__row-bottom__card-one {
+        @media (max-width: 768px) {
+          margin-top: 276rem;
+          margin-bottom: 0;
+        }
+      }
+    }
+  }
+}

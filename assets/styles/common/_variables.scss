@@ -1,0 +1,30 @@
+:root {
+  // device
+  --desktop: 1440;
+  --desktop-small: 1280;
+  --table: 768;
+  --mobile: 360;
+  --table-media: 1025px;
+  --mobile-media: 480px;
+
+  @font-face {
+    font-family: "FSAlbert Regular";
+    src: url("../../fonts/FSAlbert_Regular.otf");
+  }
+
+  // font
+  --font-family: "FSAlbert Regular";
+  // width
+  --container: 1440px;
+  // distance
+  --padding-container: 124rem;
+  // color
+  --bg-color: #FD8D1C;
+  --main-color: #465C6D;
+  --secondary-color: #FFFFFF;
+  --secondary-bg: #0095A9;
+  --tertiary-bg: #FCF9F1;
+  --footer-bg: #475C6C;
+  --footer-color: rgba(252, 249, 241, 0.6);
+  
+}

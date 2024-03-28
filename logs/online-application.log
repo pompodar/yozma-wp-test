@@ -1,0 +1,201 @@
+
+2024-02-07 08:14:17 Files to CRM running for case d3841e86-1ec1-ee11-9079-0022481ab397
+2024-02-07 08:14:17 {"case_id":"d3841e86-1ec1-ee11-9079-0022481ab397","file_location":"Test123_d3841e861ec1ee1190790022481ab397","file":"99d61c75cf0714b3a913571b36eff76b.jpg"}
+2024-02-07 08:14:17 SUCCESS
+2024-02-07 08:14:18 
+2024-02-07 08:14:18 {"case_id":"d3841e86-1ec1-ee11-9079-0022481ab397","file_location":"Test123_d3841e861ec1ee1190790022481ab397","file":"Future.jpg"}
+2024-02-07 08:14:18 SUCCESS
+2024-02-07 08:14:19 
+2024-02-07 08:14:19 {"case_id":"d3841e86-1ec1-ee11-9079-0022481ab397","file_location":"Test123_d3841e861ec1ee1190790022481ab397","file":"learning.jpg"}
+2024-02-07 08:14:19 SUCCESS
+2024-02-07 08:14:20 
+2024-02-12 10:31:41 Files to CRM running for case d3841e86-1ec1-ee11-9079-0022481ab397
+2024-02-12 10:31:41 {"case_id":"d3841e86-1ec1-ee11-9079-0022481ab397","file_location":"Test123_d3841e861ec1ee1190790022481ab397","file":"History of the Licensed Trade Charity.docx"}
+2024-02-12 10:31:41 SUCCESS
+2024-02-12 10:31:45 
+2024-02-12 10:31:45 {"case_id":"d3841e86-1ec1-ee11-9079-0022481ab397","file_location":"Test123_d3841e861ec1ee1190790022481ab397","file":"Newsletter from 2010.pdf"}
+2024-02-12 10:31:45 SUCCESS
+2024-02-12 10:32:06 
+2024-02-12 10:42:58 Files to CRM running for case d3841e86-1ec1-ee11-9079-0022481ab397
+2024-02-12 10:42:58 {"case_id":"d3841e86-1ec1-ee11-9079-0022481ab397","file_location":"Test123_d3841e861ec1ee1190790022481ab397","file":"History of the Licensed Trade Charity.docx"}
+2024-02-12 10:42:58 SUCCESS
+2024-02-12 10:43:01 
+2024-02-12 10:43:01 {"case_id":"d3841e86-1ec1-ee11-9079-0022481ab397","file_location":"Test123_d3841e861ec1ee1190790022481ab397","file":"Newsletter from 2010.pdf"}
+2024-02-12 10:43:02 SUCCESS
+2024-02-12 10:43:18 
+2024-02-12 16:27:43 Files to CRM running for case d3841e86-1ec1-ee11-9079-0022481ab397
+2024-02-12 16:27:43 {"case_id":"d3841e86-1ec1-ee11-9079-0022481ab397","file_location":"Test123_d3841e861ec1ee1190790022481ab397","file":"History of the Licensed Trade Charity.docx"}
+2024-02-12 16:27:43 SUCCESS
+2024-02-12 16:27:47 
+2024-02-12 16:27:47 {"case_id":"d3841e86-1ec1-ee11-9079-0022481ab397","file_location":"Test123_d3841e861ec1ee1190790022481ab397","file":"Newsletter from 2010.pdf"}
+2024-02-12 16:27:47 SUCCESS
+2024-02-12 16:27:58 
+2024-02-16 08:37:18 Files to CRM running for case 09b896bb-22cc-ee11-9079-0022481ab6f6
+2024-02-16 08:43:50 Files to CRM running for case 09b896bb-22cc-ee11-9079-0022481ab6f6
+2024-02-16 08:43:50 {"case_id":"09b896bb-22cc-ee11-9079-0022481ab6f6","file_location":"Test File Upload_09b896bb22ccee1190790022481ab6f6","file":"99d61c75cf0714b3a913571b36eff76b.jpg"}
+2024-02-16 08:43:50 FAILURE
+2024-02-16 08:43:50 Client error: `POST https://prod-19.uksouth.logic.azure.com/workflows/bf7c50dfdb45481b9da35ee0213dd392/triggers/manual/paths/invoke?api-version=2016-06-01&sp=%2Ftriggers%2Fmanual%2Frun&sv=1.0&sig=jzRo-Mh3dXR2DBoaQAf096pQtgHT7rE8yO2qniT20tA` resulted in a `401 Unauthorized` response:
+{"error":{"code":"AuthorizationFailed","message":"The authentication credentials are not valid."}}
+
+2024-02-16 08:50:34 Files to CRM running for case 09b896bb-22cc-ee11-9079-0022481ab6f6
+2024-02-16 08:50:34 {"case_id":"09b896bb-22cc-ee11-9079-0022481ab6f6","file_location":"Test File Upload_09b896bb22ccee1190790022481ab6f6","file":"99d61c75cf0714b3a913571b36eff76b.jpg"}
+2024-02-16 08:50:34 FAILURE
+2024-02-16 08:50:34 Client error: `POST https://prod-19.uksouth.logic.azure.com/workflows/bf7c50dfdb45481b9da35ee0213dd392/triggers/manual/paths/invoke?api-version=2016-06-01&sp=%2Ftriggers%2Fmanual%2Frun&sv=1.0&sig=jzRo-Mh3dXR2DBoaQAf096pQtgHT7rE8yO2qniT20tA` resulted in a `401 Unauthorized` response:
+{"error":{"code":"AuthorizationFailed","message":"The authentication credentials are not valid."}}
+
+2024-02-16 08:50:34 {"case_id":"09b896bb-22cc-ee11-9079-0022481ab6f6","file_location":"Test File Upload_09b896bb22ccee1190790022481ab6f6","file":"learning.jpg"}
+2024-02-16 08:50:34 FAILURE
+2024-02-16 08:50:34 Client error: `POST https://prod-19.uksouth.logic.azure.com/workflows/bf7c50dfdb45481b9da35ee0213dd392/triggers/manual/paths/invoke?api-version=2016-06-01&sp=%2Ftriggers%2Fmanual%2Frun&sv=1.0&sig=jzRo-Mh3dXR2DBoaQAf096pQtgHT7rE8yO2qniT20tA` resulted in a `401 Unauthorized` response:
+{"error":{"code":"AuthorizationFailed","message":"The authentication credentials are not valid."}}
+
+2024-02-16 08:53:54 Files to CRM running for case 09b896bb-22cc-ee11-9079-0022481ab6f6
+2024-02-16 08:53:54 {"case_id":"09b896bb-22cc-ee11-9079-0022481ab6f6","file_location":"Test File Upload_09b896bb22ccee1190790022481ab6f6","file":"99d61c75cf0714b3a913571b36eff76b.jpg"}
+2024-02-16 08:53:54 FAILURE
+2024-02-16 08:53:54 Client error: `POST https://prod-19.uksouth.logic.azure.com/workflows/bf7c50dfdb45481b9da35ee0213dd392/triggers/manual/paths/invoke?api-version=2016-06-01&sp=%2Ftriggers%2Fmanual%2Frun&sv=1.0&sig=jzRo-Mh3dXR2DBoaQAf096pQtgHT7rE8yO2qniT20tA` resulted in a `401 Unauthorized` response:
+{"error":{"code":"AuthorizationFailed","message":"The authentication credentials are not valid."}}
+
+2024-02-16 08:53:54 {"case_id":"09b896bb-22cc-ee11-9079-0022481ab6f6","file_location":"Test File Upload_09b896bb22ccee1190790022481ab6f6","file":"Future.jpg"}
+2024-02-16 08:53:54 FAILURE
+2024-02-16 08:53:54 Client error: `POST https://prod-19.uksouth.logic.azure.com/workflows/bf7c50dfdb45481b9da35ee0213dd392/triggers/manual/paths/invoke?api-version=2016-06-01&sp=%2Ftriggers%2Fmanual%2Frun&sv=1.0&sig=jzRo-Mh3dXR2DBoaQAf096pQtgHT7rE8yO2qniT20tA` resulted in a `401 Unauthorized` response:
+{"error":{"code":"AuthorizationFailed","message":"The authentication credentials are not valid."}}
+
+2024-02-16 08:53:54 {"case_id":"09b896bb-22cc-ee11-9079-0022481ab6f6","file_location":"Test File Upload_09b896bb22ccee1190790022481ab6f6","file":"learning.jpg"}
+2024-02-16 08:53:54 FAILURE
+2024-02-16 08:53:54 Client error: `POST https://prod-19.uksouth.logic.azure.com/workflows/bf7c50dfdb45481b9da35ee0213dd392/triggers/manual/paths/invoke?api-version=2016-06-01&sp=%2Ftriggers%2Fmanual%2Frun&sv=1.0&sig=jzRo-Mh3dXR2DBoaQAf096pQtgHT7rE8yO2qniT20tA` resulted in a `401 Unauthorized` response:
+{"error":{"code":"AuthorizationFailed","message":"The authentication credentials are not valid."}}
+
+2024-02-16 08:58:47 Files to CRM running for case 09b896bb-22cc-ee11-9079-0022481ab6f6
+2024-02-16 08:58:47 {"case_id":"09b896bb-22cc-ee11-9079-0022481ab6f6","file_location":"Test File Upload_09b896bb22ccee1190790022481ab6f6","file":"99d61c75cf0714b3a913571b36eff76b.jpg"}
+2024-02-16 08:58:47 FAILURE
+2024-02-16 08:58:47 Client error: `POST https://prod-19.uksouth.logic.azure.com/workflows/bf7c50dfdb45481b9da35ee0213dd392/triggers/manual/paths/invoke?api-version=2016-06-01&sp=%2Ftriggers%2Fmanual%2Frun&sv=1.0&sig=jzRo-Mh3dXR2DBoaQAf096pQtgHT7rE8yO2qniT20tA` resulted in a `401 Unauthorized` response:
+{"error":{"code":"AuthorizationFailed","message":"The authentication credentials are not valid."}}
+
+2024-02-16 08:58:47 {"case_id":"09b896bb-22cc-ee11-9079-0022481ab6f6","file_location":"Test File Upload_09b896bb22ccee1190790022481ab6f6","file":"Future.jpg"}
+2024-02-16 08:58:47 FAILURE
+2024-02-16 08:58:47 Client error: `POST https://prod-19.uksouth.logic.azure.com/workflows/bf7c50dfdb45481b9da35ee0213dd392/triggers/manual/paths/invoke?api-version=2016-06-01&sp=%2Ftriggers%2Fmanual%2Frun&sv=1.0&sig=jzRo-Mh3dXR2DBoaQAf096pQtgHT7rE8yO2qniT20tA` resulted in a `401 Unauthorized` response:
+{"error":{"code":"AuthorizationFailed","message":"The authentication credentials are not valid."}}
+
+2024-02-16 08:58:47 {"case_id":"09b896bb-22cc-ee11-9079-0022481ab6f6","file_location":"Test File Upload_09b896bb22ccee1190790022481ab6f6","file":"learning (1).jpg"}
+2024-02-16 08:58:47 FAILURE
+2024-02-16 08:58:47 Client error: `POST https://prod-19.uksouth.logic.azure.com/workflows/bf7c50dfdb45481b9da35ee0213dd392/triggers/manual/paths/invoke?api-version=2016-06-01&sp=%2Ftriggers%2Fmanual%2Frun&sv=1.0&sig=jzRo-Mh3dXR2DBoaQAf096pQtgHT7rE8yO2qniT20tA` resulted in a `401 Unauthorized` response:
+{"error":{"code":"AuthorizationFailed","message":"The authentication credentials are not valid."}}
+
+2024-02-16 08:58:47 {"case_id":"09b896bb-22cc-ee11-9079-0022481ab6f6","file_location":"Test File Upload_09b896bb22ccee1190790022481ab6f6","file":"learning.jpg"}
+2024-02-16 08:58:47 FAILURE
+2024-02-16 08:58:47 Client error: `POST https://prod-19.uksouth.logic.azure.com/workflows/bf7c50dfdb45481b9da35ee0213dd392/triggers/manual/paths/invoke?api-version=2016-06-01&sp=%2Ftriggers%2Fmanual%2Frun&sv=1.0&sig=jzRo-Mh3dXR2DBoaQAf096pQtgHT7rE8yO2qniT20tA` resulted in a `401 Unauthorized` response:
+{"error":{"code":"AuthorizationFailed","message":"The authentication credentials are not valid."}}
+
+2024-02-16 09:03:05 Files to CRM running for case 09b896bb-22cc-ee11-9079-0022481ab6f6
+2024-02-16 09:03:05 {"case_id":"09b896bb-22cc-ee11-9079-0022481ab6f6","file_location":"Test File Upload_09b896bb22ccee1190790022481ab6f6","file":"99d61c75cf0714b3a913571b36eff76b.jpg"}
+2024-02-16 09:03:05 FAILURE
+2024-02-16 09:03:05 Client error: `POST https://prod-19.uksouth.logic.azure.com/workflows/bf7c50dfdb45481b9da35ee0213dd392/triggers/manual/paths/invoke?api-version=2016-06-01&sp=%2Ftriggers%2Fmanual%2Frun&sv=1.0&sig=hx2ozpRZBHuEFqj77OSovUVEdJPbe2Qr4YY7pvqPo` resulted in a `401 Unauthorized` response:
+{"error":{"code":"AuthorizationFailed","message":"The authentication credentials are not valid."}}
+
+2024-02-16 09:03:05 {"case_id":"09b896bb-22cc-ee11-9079-0022481ab6f6","file_location":"Test File Upload_09b896bb22ccee1190790022481ab6f6","file":"Future.jpg"}
+2024-02-16 09:03:05 FAILURE
+2024-02-16 09:03:05 Client error: `POST https://prod-19.uksouth.logic.azure.com/workflows/bf7c50dfdb45481b9da35ee0213dd392/triggers/manual/paths/invoke?api-version=2016-06-01&sp=%2Ftriggers%2Fmanual%2Frun&sv=1.0&sig=hx2ozpRZBHuEFqj77OSovUVEdJPbe2Qr4YY7pvqPo` resulted in a `401 Unauthorized` response:
+{"error":{"code":"AuthorizationFailed","message":"The authentication credentials are not valid."}}
+
+2024-02-16 09:03:05 {"case_id":"09b896bb-22cc-ee11-9079-0022481ab6f6","file_location":"Test File Upload_09b896bb22ccee1190790022481ab6f6","file":"learning (1).jpg"}
+2024-02-16 09:03:05 FAILURE
+2024-02-16 09:03:05 Client error: `POST https://prod-19.uksouth.logic.azure.com/workflows/bf7c50dfdb45481b9da35ee0213dd392/triggers/manual/paths/invoke?api-version=2016-06-01&sp=%2Ftriggers%2Fmanual%2Frun&sv=1.0&sig=hx2ozpRZBHuEFqj77OSovUVEdJPbe2Qr4YY7pvqPo` resulted in a `401 Unauthorized` response:
+{"error":{"code":"AuthorizationFailed","message":"The authentication credentials are not valid."}}
+
+2024-02-16 09:03:05 {"case_id":"09b896bb-22cc-ee11-9079-0022481ab6f6","file_location":"Test File Upload_09b896bb22ccee1190790022481ab6f6","file":"learning.jpg"}
+2024-02-16 09:03:05 FAILURE
+2024-02-16 09:03:05 Client error: `POST https://prod-19.uksouth.logic.azure.com/workflows/bf7c50dfdb45481b9da35ee0213dd392/triggers/manual/paths/invoke?api-version=2016-06-01&sp=%2Ftriggers%2Fmanual%2Frun&sv=1.0&sig=hx2ozpRZBHuEFqj77OSovUVEdJPbe2Qr4YY7pvqPo` resulted in a `401 Unauthorized` response:
+{"error":{"code":"AuthorizationFailed","message":"The authentication credentials are not valid."}}
+
+2024-02-16 09:03:05 {"case_id":"09b896bb-22cc-ee11-9079-0022481ab6f6","file_location":"Test File Upload_09b896bb22ccee1190790022481ab6f6","file":"t-shirt.jpg"}
+2024-02-16 09:03:05 FAILURE
+2024-02-16 09:03:05 Client error: `POST https://prod-19.uksouth.logic.azure.com/workflows/bf7c50dfdb45481b9da35ee0213dd392/triggers/manual/paths/invoke?api-version=2016-06-01&sp=%2Ftriggers%2Fmanual%2Frun&sv=1.0&sig=hx2ozpRZBHuEFqj77OSovUVEdJPbe2Qr4YY7pvqPo` resulted in a `401 Unauthorized` response:
+{"error":{"code":"AuthorizationFailed","message":"The authentication credentials are not valid."}}
+
+2024-02-16 09:31:47 Files to CRM running for case d3841e86-1ec1-ee11-9079-0022481ab397
+2024-02-16 09:31:47 {"case_id":"d3841e86-1ec1-ee11-9079-0022481ab397","file_location":"Test123_d3841e861ec1ee1190790022481ab397","file":"99d61c75cf0714b3a913571b36eff76b.jpg"}
+2024-02-16 09:31:48 FAILURE
+2024-02-16 09:31:48 Client error: `POST https://prod-19.uksouth.logic.azure.com/workflows/bf7c50dfdb45481b9da35ee0213dd392/triggers/manual/paths/invoke?api-version=2016-06-01&sp=%2Ftriggers%2Fmanual%2Frun&sv=1.0&sig=hx2ozpRZBHuEFqj77OSovUVEdJPbe2Qr4YY7pvqPo` resulted in a `401 Unauthorized` response:
+{"error":{"code":"AuthorizationFailed","message":"The authentication credentials are not valid."}}
+
+2024-02-16 09:31:48 {"case_id":"d3841e86-1ec1-ee11-9079-0022481ab397","file_location":"Test123_d3841e861ec1ee1190790022481ab397","file":"History of the Licensed Trade Charity.docx"}
+2024-02-16 09:31:48 FAILURE
+2024-02-16 09:31:48 Client error: `POST https://prod-19.uksouth.logic.azure.com/workflows/bf7c50dfdb45481b9da35ee0213dd392/triggers/manual/paths/invoke?api-version=2016-06-01&sp=%2Ftriggers%2Fmanual%2Frun&sv=1.0&sig=hx2ozpRZBHuEFqj77OSovUVEdJPbe2Qr4YY7pvqPo` resulted in a `401 Unauthorized` response:
+{"error":{"code":"AuthorizationFailed","message":"The authentication credentials are not valid."}}
+
+2024-02-16 09:31:48 {"case_id":"d3841e86-1ec1-ee11-9079-0022481ab397","file_location":"Test123_d3841e861ec1ee1190790022481ab397","file":"Newsletter from 2010.pdf"}
+2024-02-16 09:31:48 FAILURE
+2024-02-16 09:31:48 Client error: `POST https://prod-19.uksouth.logic.azure.com/workflows/bf7c50dfdb45481b9da35ee0213dd392/triggers/manual/paths/invoke?api-version=2016-06-01&sp=%2Ftriggers%2Fmanual%2Frun&sv=1.0&sig=hx2ozpRZBHuEFqj77OSovUVEdJPbe2Qr4YY7pvqPo` resulted in a `401 Unauthorized` response:
+{"error":{"code":"AuthorizationFailed","message":"The authentication credentials are not valid."}}
+
+2024-02-16 09:40:13 Files to CRM running for case d3841e86-1ec1-ee11-9079-0022481ab397
+2024-02-16 09:40:13 {"case_id":"d3841e86-1ec1-ee11-9079-0022481ab397","file_location":"Test123_d3841e861ec1ee1190790022481ab397","file":"99d61c75cf0714b3a913571b36eff76b.jpg"}
+2024-02-16 09:40:13 FAILURE
+2024-02-16 09:40:13 Client error: `POST https://prod-19.uksouth.logic.azure.com/workflows/bf7c50dfdb45481b9da35ee0213dd392/triggers/manual/paths/invoke?api-version=2016-06-01&sp=%2Ftriggers%2Fmanual%2Frun&sv=1.0&sig=hx2ozpRZBHuEFqj77OSovUVEdJPbe2Qr4YY7pvqPo` resulted in a `401 Unauthorized` response:
+{"error":{"code":"AuthorizationFailed","message":"The authentication credentials are not valid."}}
+
+2024-02-16 09:40:13 {"case_id":"d3841e86-1ec1-ee11-9079-0022481ab397","file_location":"Test123_d3841e861ec1ee1190790022481ab397","file":"History of the Licensed Trade Charity.docx"}
+2024-02-16 09:40:13 FAILURE
+2024-02-16 09:40:13 Client error: `POST https://prod-19.uksouth.logic.azure.com/workflows/bf7c50dfdb45481b9da35ee0213dd392/triggers/manual/paths/invoke?api-version=2016-06-01&sp=%2Ftriggers%2Fmanual%2Frun&sv=1.0&sig=hx2ozpRZBHuEFqj77OSovUVEdJPbe2Qr4YY7pvqPo` resulted in a `401 Unauthorized` response:
+{"error":{"code":"AuthorizationFailed","message":"The authentication credentials are not valid."}}
+
+2024-02-16 09:40:13 {"case_id":"d3841e86-1ec1-ee11-9079-0022481ab397","file_location":"Test123_d3841e861ec1ee1190790022481ab397","file":"Newsletter from 2010.pdf"}
+2024-02-16 09:40:13 FAILURE
+2024-02-16 09:40:13 Client error: `POST https://prod-19.uksouth.logic.azure.com/workflows/bf7c50dfdb45481b9da35ee0213dd392/triggers/manual/paths/invoke?api-version=2016-06-01&sp=%2Ftriggers%2Fmanual%2Frun&sv=1.0&sig=hx2ozpRZBHuEFqj77OSovUVEdJPbe2Qr4YY7pvqPo` resulted in a `401 Unauthorized` response:
+{"error":{"code":"AuthorizationFailed","message":"The authentication credentials are not valid."}}
+
+2024-02-16 09:40:13 {"case_id":"d3841e86-1ec1-ee11-9079-0022481ab397","file_location":"Test123_d3841e861ec1ee1190790022481ab397","file":"unnamed.jpg"}
+2024-02-16 09:40:13 FAILURE
+2024-02-16 09:40:13 Client error: `POST https://prod-19.uksouth.logic.azure.com/workflows/bf7c50dfdb45481b9da35ee0213dd392/triggers/manual/paths/invoke?api-version=2016-06-01&sp=%2Ftriggers%2Fmanual%2Frun&sv=1.0&sig=hx2ozpRZBHuEFqj77OSovUVEdJPbe2Qr4YY7pvqPo` resulted in a `401 Unauthorized` response:
+{"error":{"code":"AuthorizationFailed","message":"The authentication credentials are not valid."}}
+
+2024-02-16 09:42:29 Files to CRM running for case d3841e86-1ec1-ee11-9079-0022481ab397
+2024-02-16 09:42:29 {"case_id":"d3841e86-1ec1-ee11-9079-0022481ab397","file_location":"Test123_d3841e861ec1ee1190790022481ab397","file":"99d61c75cf0714b3a913571b36eff76b (1).jpg"}
+2024-02-16 09:42:29 FAILURE
+2024-02-16 09:42:29 Server error: `POST https://prod-19.uksouth.logic.azure.com/orkflows/bf7c50dfdb45481b9da35ee0213dd392/triggers/manual/paths/invoke?api-version=2016-06-01&sp=%2Ftriggers%2Fmanual%2Frun&sv=1.0&sig=hx2ozpRZBHuEFqj77OSovUVEdJPbe2Qr4YY7pvqPo` resulted in a `500 Internal Server Error` response:
+{"error":{"code":"InternalServerError","message":"Encountered internal server error. The tracking Id is 'fd4fb053-2a32-4 (truncated...)
+
+2024-02-16 09:42:29 {"case_id":"d3841e86-1ec1-ee11-9079-0022481ab397","file_location":"Test123_d3841e861ec1ee1190790022481ab397","file":"99d61c75cf0714b3a913571b36eff76b.jpg"}
+2024-02-16 09:42:29 FAILURE
+2024-02-16 09:42:29 Server error: `POST https://prod-19.uksouth.logic.azure.com/orkflows/bf7c50dfdb45481b9da35ee0213dd392/triggers/manual/paths/invoke?api-version=2016-06-01&sp=%2Ftriggers%2Fmanual%2Frun&sv=1.0&sig=hx2ozpRZBHuEFqj77OSovUVEdJPbe2Qr4YY7pvqPo` resulted in a `500 Internal Server Error` response:
+{"error":{"code":"InternalServerError","message":"Encountered internal server error. The tracking Id is '2c88e2cf-d748-4 (truncated...)
+
+2024-02-16 09:42:29 {"case_id":"d3841e86-1ec1-ee11-9079-0022481ab397","file_location":"Test123_d3841e861ec1ee1190790022481ab397","file":"History of the Licensed Trade Charity.docx"}
+2024-02-16 09:42:29 FAILURE
+2024-02-16 09:42:29 Server error: `POST https://prod-19.uksouth.logic.azure.com/orkflows/bf7c50dfdb45481b9da35ee0213dd392/triggers/manual/paths/invoke?api-version=2016-06-01&sp=%2Ftriggers%2Fmanual%2Frun&sv=1.0&sig=hx2ozpRZBHuEFqj77OSovUVEdJPbe2Qr4YY7pvqPo` resulted in a `500 Internal Server Error` response:
+{"error":{"code":"InternalServerError","message":"Encountered internal server error. The tracking Id is '7de6bcca-a065-4 (truncated...)
+
+2024-02-16 09:42:29 {"case_id":"d3841e86-1ec1-ee11-9079-0022481ab397","file_location":"Test123_d3841e861ec1ee1190790022481ab397","file":"Newsletter from 2010.pdf"}
+2024-02-16 09:42:29 FAILURE
+2024-02-16 09:42:29 Server error: `POST https://prod-19.uksouth.logic.azure.com/orkflows/bf7c50dfdb45481b9da35ee0213dd392/triggers/manual/paths/invoke?api-version=2016-06-01&sp=%2Ftriggers%2Fmanual%2Frun&sv=1.0&sig=hx2ozpRZBHuEFqj77OSovUVEdJPbe2Qr4YY7pvqPo` resulted in a `500 Internal Server Error` response:
+{"error":{"code":"InternalServerError","message":"Encountered internal server error. The tracking Id is '4abf9eac-39d3-4 (truncated...)
+
+2024-02-16 09:42:29 {"case_id":"d3841e86-1ec1-ee11-9079-0022481ab397","file_location":"Test123_d3841e861ec1ee1190790022481ab397","file":"unnamed.jpg"}
+2024-02-16 09:42:29 FAILURE
+2024-02-16 09:42:29 Server error: `POST https://prod-19.uksouth.logic.azure.com/orkflows/bf7c50dfdb45481b9da35ee0213dd392/triggers/manual/paths/invoke?api-version=2016-06-01&sp=%2Ftriggers%2Fmanual%2Frun&sv=1.0&sig=hx2ozpRZBHuEFqj77OSovUVEdJPbe2Qr4YY7pvqPo` resulted in a `500 Internal Server Error` response:
+{"error":{"code":"InternalServerError","message":"Encountered internal server error. The tracking Id is '785fa5f4-a4d2-4 (truncated...)
+
+2024-02-16 09:44:02 Files to CRM running for case d3841e86-1ec1-ee11-9079-0022481ab397
+2024-02-16 09:44:02 {"case_id":"d3841e86-1ec1-ee11-9079-0022481ab397","file_location":"Test123_d3841e861ec1ee1190790022481ab397","file":"99d61c75cf0714b3a913571b36eff76b (1).jpg"}
+2024-02-16 09:44:02 FAILURE
+2024-02-16 09:44:02 Client error: `POST https://prod-19.uksouth.logic.azure.com/workflows/bf7c50dfdb45481b9da35ee0213dd392/triggers/manual/paths/invoke?api-version=2016-06-01&sp=%2Ftriggers%2Fmanual%2Frun&sv=1.0&sig=hx2ozpRZBHuEFqj77OSovUVEdJPbe2Qr4YY7pvqPo` resulted in a `401 Unauthorized` response:
+{"error":{"code":"AuthorizationFailed","message":"The authentication credentials are not valid."}}
+
+2024-02-16 09:44:02 {"case_id":"d3841e86-1ec1-ee11-9079-0022481ab397","file_location":"Test123_d3841e861ec1ee1190790022481ab397","file":"99d61c75cf0714b3a913571b36eff76b.jpg"}
+2024-02-16 09:44:02 FAILURE
+2024-02-16 09:44:02 Client error: `POST https://prod-19.uksouth.logic.azure.com/workflows/bf7c50dfdb45481b9da35ee0213dd392/triggers/manual/paths/invoke?api-version=2016-06-01&sp=%2Ftriggers%2Fmanual%2Frun&sv=1.0&sig=hx2ozpRZBHuEFqj77OSovUVEdJPbe2Qr4YY7pvqPo` resulted in a `401 Unauthorized` response:
+{"error":{"code":"AuthorizationFailed","message":"The authentication credentials are not valid."}}
+
+2024-02-16 09:44:02 {"case_id":"d3841e86-1ec1-ee11-9079-0022481ab397","file_location":"Test123_d3841e861ec1ee1190790022481ab397","file":"History of the Licensed Trade Charity.docx"}
+2024-02-16 09:44:02 FAILURE
+2024-02-16 09:44:02 Client error: `POST https://prod-19.uksouth.logic.azure.com/workflows/bf7c50dfdb45481b9da35ee0213dd392/triggers/manual/paths/invoke?api-version=2016-06-01&sp=%2Ftriggers%2Fmanual%2Frun&sv=1.0&sig=hx2ozpRZBHuEFqj77OSovUVEdJPbe2Qr4YY7pvqPo` resulted in a `401 Unauthorized` response:
+{"error":{"code":"AuthorizationFailed","message":"The authentication credentials are not valid."}}
+
+2024-02-16 09:44:02 {"case_id":"d3841e86-1ec1-ee11-9079-0022481ab397","file_location":"Test123_d3841e861ec1ee1190790022481ab397","file":"Newsletter from 2010.pdf"}
+2024-02-16 09:44:02 FAILURE
+2024-02-16 09:44:02 Client error: `POST https://prod-19.uksouth.logic.azure.com/workflows/bf7c50dfdb45481b9da35ee0213dd392/triggers/manual/paths/invoke?api-version=2016-06-01&sp=%2Ftriggers%2Fmanual%2Frun&sv=1.0&sig=hx2ozpRZBHuEFqj77OSovUVEdJPbe2Qr4YY7pvqPo` resulted in a `401 Unauthorized` response:
+{"error":{"code":"AuthorizationFailed","message":"The authentication credentials are not valid."}}
+
+2024-02-16 09:44:02 {"case_id":"d3841e86-1ec1-ee11-9079-0022481ab397","file_location":"Test123_d3841e861ec1ee1190790022481ab397","file":"unnamed.jpg"}
+2024-02-16 09:44:02 FAILURE
+2024-02-16 09:44:02 Client error: `POST https://prod-19.uksouth.logic.azure.com/workflows/bf7c50dfdb45481b9da35ee0213dd392/triggers/manual/paths/invoke?api-version=2016-06-01&sp=%2Ftriggers%2Fmanual%2Frun&sv=1.0&sig=hx2ozpRZBHuEFqj77OSovUVEdJPbe2Qr4YY7pvqPo` resulted in a `401 Unauthorized` response:
+{"error":{"code":"AuthorizationFailed","message":"The authentication credentials are not valid."}}

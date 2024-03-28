@@ -1,0 +1,13 @@
+.single-post main .text, .page .text {
+    ol, ul {
+      padding: 0 24rem;
+      margin-top: -50rem;
+      margin-bottom: 18rem;
+
+      @media (max-width: 768px) {
+          padding: 0 24rem;
+          margin-top: -26rem;
+          margin-bottom: 16rem;
+        }
+    }
+  }

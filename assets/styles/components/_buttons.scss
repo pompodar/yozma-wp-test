@@ -1,0 +1,120 @@
+// @import "../common/variables";
+// @import "../common/mixins";
+
+// .button {
+//   width: fit-content;
+//   appearance: none;
+//   -webkit-appearance: none;
+//   -moz-appearance: none;
+//   outline: none;
+//   background: none;
+//   text-decoration: none;
+//   border-radius: 30px;
+//   border: 1px solid transparent;
+//   padding: 14.5px 49px;
+//   display: flex;
+//   justify-content: center;
+//   align-items: center;
+//   transition: color .3s ease, background-color .3s ease, border-color .3s ease;
+//   font-weight: 600;
+//   font-size: 16px;
+//   line-height: 170%;
+//   min-width: 170px;
+
+//   svg {
+//     margin-left: 10px;
+
+//     * {
+//       transition: fill .3s ease, stroke .3s ease;
+//     }
+//   }
+
+//   &--inline {
+//     display: inline-flex;
+//   }
+
+//   &--big {
+//     padding: 14.5px 49px;
+//     height: 56px;
+//   }
+
+//   &--small {
+//     padding: 9.5px 30px;
+//     height: 46px;
+//   }
+
+//   &-primary {
+//     border-color: $primary;
+//     background-color: $primary;
+//     color: $white;
+
+//     &:hover {
+//       background-color: $primary-100;
+//       border-color: $primary-100;
+//     }
+
+//     &:active {
+//       background-color: $primary-200;
+//       border-color: $primary-200;
+//     }
+//   }
+
+//   &-secondary {
+//     border-color: $primary;
+//     background-color: $white;
+//     color: $primary;
+
+//     &:hover {
+//       border-color: $primary-100;
+//       color: $primary-100;
+//     }
+
+//     &:active {
+//       border-color: $primary-200;
+//       color: $primary-200;
+//     }
+//   }
+
+//   &-transparent {
+//     color: $white;
+//     border-color: $white;
+//     background: transparent;
+
+//     &:hover {
+//       color: $primary-100;
+//       border-color: $primary-100;
+//     }
+
+//     &:active {
+//       color: $primary-200;
+//       border-color: $primary-200;
+//     }
+//   }
+
+//   &-link {
+//     min-width: fit-content;
+//     background: transparent;
+//     position: relative;
+//     padding: 4px 0;
+//     color: $primary;
+
+//     &::after {
+//       content: "";
+//       position: absolute;
+//       left: 0;
+//       bottom: -2px;
+//       width: 100%;
+//       height: 2px;
+//       background-color: $red;
+//       transition: background-color .3s ease;
+//     }
+//   }
+
+//   &.disabled {
+//     cursor: not-allowed;
+//     pointer-events: none;
+//     opacity: .5;
+//     background-color: $disabled;
+//     color: $white;
+//   }
+// }

@@ -1,0 +1,208 @@
+.fundraising {
+  background: linear-gradient(0deg, #0095A9 0%, #0095A9 100%);
+  padding-bottom: 155rem;
+  margin-top: 137rem;
+  margin-bottom: 174rem;
+
+  @media (max-width: 768px) {
+    margin-top: 97rem;
+    margin-bottom: 60rem;
+    padding-bottom: 36rem;
+  }
+
+  &__inner {
+    display: flex;
+    color: #FCF9F1;
+
+    @media (max-width: 768px) {
+      flex-direction: column;
+    }
+
+    .fundraising__row-left {
+      margin-right: auto;
+      position: relative;
+      display: flex;
+      flex-direction: column;
+     
+      @media (max-width: 768px) {
+        flex-direction: column;
+      }
+
+      .fundraising__heading {
+        font-size: 48rem;
+        font-weight: 700;
+        margin-top: 155rem;
+        display: inline-block;
+        padding-bottom: 30rem;
+        position: relative;
+
+        @media (max-width: 768px) {
+          margin-top: 42rem;
+          font-size: 28rem;
+          padding-bottom: 22rem;
+        }
+
+        &::before {
+          content: "";
+          position: absolute;
+          bottom: 0;
+          left: 0;
+          width: 81.5rem;
+          height: 5rem;
+          background-color: #D54443;
+
+          @media (max-width: 768px) {
+            height: 3rem;
+          }
+        }
+      }
+
+    .fundraising__paragraph {
+      font-size: 24rem;
+      line-height: 120%;
+      font-weight: 700;
+      max-width: 770rem;
+      margin-top: 48rem;
+      margin-bottom: 39rem;
+
+      @media (max-width: 768px) {
+        font-size: 14rem;
+        margin-top: 26rem;
+        margin-bottom: 15rem;
+        max-width: 302.501px;
+      }
+    }
+
+    .fundraising__paragraph-two, .fundraising__paragraph-three {
+      font-size: 24rem;
+      font-weight: 400;
+      line-height: 120%;
+      margin-block: 20rem;
+      max-width: 747rem;
+
+      @media (max-width: 768px) {
+        font-size: 12rem;
+        margin-block: 15rem;
+        max-width: 302.501rem;
+      }
+    }
+
+    .fundraising__image {
+      background: #FFF;
+      margin-top: 68rem;
+      width: 385rem;
+      height: 167.075rem;
+      border-radius: 10rem;
+      box-shadow: 0 10rem 25rem 0rem rgba(0, 0, 0, 0.06);
+      display: flex;
+      justify-content: center;
+      align-items: center;
+
+      @media (max-width: 768px) {
+        margin-top: 26rem;
+        width: 167rem;
+        height: 72rem;
+      }
+
+      & img {
+        width: 257.877rem;
+        height: 78.09rem;
+
+        @media (max-width: 768px) {
+          width: 113rem;
+          height: 34rem;
+        }
+      }
+    }
+    }
+  }
+
+  .fundraising__row-right {
+    margin-left: auto;
+    margin-top: 108rem;
+    width: 765rem;
+
+    @media (max-width: 768px) {
+      margin-top: 50rem;
+      width: 100%;
+    }
+
+    .list__item {
+      border-bottom: #FFF 1rem solid;
+    }
+
+    .list__item:last-child {
+      border-bottom: none;
+    }
+
+    .list__item__visual {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+
+      .list__item__plus {
+        background-color: transparent;
+        border: none;
+      }
+
+      .list__item__plus:before {
+        content: "";
+        background: url("../../../../assets/images/add-white.svg") no-repeat;
+        width: 54rem;
+        height: 54rem;
+        display: inline-block;
+        background-size: contain;
+
+        @media (max-width: 768px) {
+          width: 24rem;
+          height: 24rem;
+        }
+      }
+
+      .minus::before {
+        background: url("../../../../assets/images/add-minus-white.svg") no-repeat;
+        background-size: contain;
+      }
+    }
+
+    .list__item__heading {
+      font-size: 42rem;
+      padding: 47rem 34rem 47rem 50rem;
+
+      @media (max-width: 768px) {
+        font-size: 20rem;
+        padding: 24rem 0;
+      }
+    }
+
+    .list__item__paragraph {
+      font-size: 42rem;
+      max-width: 611rem;
+      font-size: 24rem;
+      line-height: 120%;
+      max-height: 0;
+      padding-left: 50rem;
+      overflow: hidden;
+      opacity: 0;
+      transition: opacity 0.5s, max-height 0.2s, padding-bottom 0.5s, padding-top 0.5s;
+
+      @media (max-width: 768px) {
+        font-size: 14rem;
+        padding-left: 0;
+      }
+    }
+
+    .open {
+      opacity: 1;
+      max-height: 100%;
+      padding-top: 0;
+      padding-bottom: 47rem;
+    }
+
+    .open-mobile {
+      opacity: 1;
+      max-height: 100%;
+      padding-bottom: 24rem;
+    }
+  }
+}

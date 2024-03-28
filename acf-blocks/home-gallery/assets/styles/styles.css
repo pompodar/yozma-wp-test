@@ -1,0 +1,184 @@
+.gallery__inner {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin-top: 200rem;
+  margin-bottom: 129rem;
+}
+
+@media (max-width: 768px) {
+  .gallery__inner {
+    margin-top: 114rem;
+    margin-bottom: 75rem;
+  }
+}
+
+.gallery__inner .gallery__row-top {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+}
+
+@media (max-width: 768px) {
+  .gallery__inner .gallery__row-top {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+}
+
+.gallery__inner .gallery__row-top .gallery__heading {
+  font-size: 48rem;
+  font-weight: 700;
+  display: inline-block;
+  padding-bottom: 40rem;
+  position: relative;
+}
+
+@media (max-width: 768px) {
+  .gallery__inner .gallery__row-top .gallery__heading {
+    font-size: 28rem;
+    padding-bottom: 18rem;
+    width: 270rem;
+  }
+}
+
+.gallery__inner .gallery__row-top .gallery__heading::before {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 81.5rem;
+  height: 5rem;
+  background-color: #D54443;
+}
+
+@media (max-width: 768px) {
+  .gallery__inner .gallery__row-top .gallery__heading::before {
+    height: 3rem;
+  }
+}
+
+.gallery__inner .swiper__gallery {
+  width: 100%;
+  overflow: hidden;
+}
+
+.gallery__inner .gallery__row-bottom {
+  margin-top: 72rem;
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+@media (max-width: 768px) {
+  .gallery__inner .gallery__row-bottom {
+    margin-top: 39rem;
+    gap: 0;
+  }
+}
+
+.gallery__inner .gallery__row-bottom__inner {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 34rem;
+  width: 100% !important;
+}
+
+@media (max-width: 768px) {
+  .gallery__inner .gallery__row-bottom__inner {
+    gap: 14rem;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+}
+
+.gallery__inner .gallery__row-bottom .gallery__row-bottom__card {
+  width: 307rem;
+  height: 307rem;
+  border-radius: 10rem;
+  position: relative;
+}
+
+@media (max-width: 768px) {
+  .gallery__inner .gallery__row-bottom .gallery__row-bottom__card {
+    padding: 0;
+    margin-top: 0;
+    width: 148.964rem;
+    height: 148.964rem;
+  }
+}
+
+.gallery .swiper__gallery__button-prev {
+  position: absolute;
+  top: 0;
+  right: 196rem;
+  width: 48rem;
+  height: 48rem;
+  background: url("../../../../assets/images/slider-left-arrow-red.svg") no-repeat;
+  background-size: contain;
+  cursor: pointer;
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
+}
+
+.gallery .swiper__gallery__button-prev:hover {
+  background: url("../../../../assets/images/slider-right-arrow-red.svg") no-repeat;
+  background-size: contain;
+  -webkit-transform: rotate(-180deg);
+          transform: rotate(-180deg);
+}
+
+@media (max-width: 768px) {
+  .gallery .swiper__gallery__button-prev {
+    width: 32rem;
+    height: 32rem;
+    top: 0;
+    right: 24rem;
+  }
+}
+
+.gallery .swiper__gallery__button-next {
+  position: absolute;
+  top: 0;
+  right: 124rem;
+  width: 48rem;
+  height: 48rem;
+  background: url("../../../../assets/images/slider-left-arrow-red.svg") no-repeat;
+  -webkit-transform: rotate(180deg);
+          transform: rotate(180deg);
+  background-size: contain;
+  cursor: pointer;
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
+}
+
+.gallery .swiper__gallery__button-next:hover {
+  background: url("../../../../assets/images/slider-right-arrow-red.svg") no-repeat;
+  background-size: contain;
+  -webkit-transform: rotate(0deg);
+          transform: rotate(0deg);
+}
+
+@media (max-width: 768px) {
+  .gallery .swiper__gallery__button-next {
+    width: 32rem;
+    height: 32rem;
+    top: 37rem;
+    right: 24rem;
+  }
+}
+/*# sourceMappingURL=styles.css.map */

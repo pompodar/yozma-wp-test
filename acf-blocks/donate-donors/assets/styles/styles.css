@@ -1,0 +1,202 @@
+.donors__inner {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin-top: 192rem;
+  margin-bottom: 146rem;
+}
+
+@media (max-width: 768px) {
+  .donors__inner {
+    margin-top: 97rem;
+    margin-bottom: 58rem;
+  }
+}
+
+.donors__inner .donors__row-top {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+}
+
+@media (max-width: 768px) {
+  .donors__inner .donors__row-top {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+}
+
+.donors__inner .donors__row-top .donors__heading {
+  font-size: 48rem;
+  font-weight: 700;
+  display: inline-block;
+  padding-bottom: 40rem;
+  position: relative;
+}
+
+@media (max-width: 768px) {
+  .donors__inner .donors__row-top .donors__heading {
+    font-size: 28rem;
+    padding-bottom: 18rem;
+  }
+}
+
+.donors__inner .donors__row-top .donors__heading::before {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 81.5rem;
+  height: 5rem;
+  background-color: #D54443;
+}
+
+@media (max-width: 768px) {
+  .donors__inner .donors__row-top .donors__heading::before {
+    height: 3rem;
+  }
+}
+
+.donors__inner .donors__row-top .donors__paragraph {
+  text-align: right;
+  font-size: 24rem;
+  line-height: 120%;
+  max-width: 661rem;
+}
+
+@media (max-width: 768px) {
+  .donors__inner .donors__row-top .donors__paragraph {
+    text-align: left;
+    font-size: 16rem;
+    margin-top: 25rem;
+    margin-bottom: 40rem;
+  }
+}
+
+.donors__inner .donors__row-bottom {
+  margin-top: 84rem;
+  margin-bottom: -42rem;
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  max-height: 123rem;
+  overflow: hidden;
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
+}
+
+@media (max-width: 768px) {
+  .donors__inner .donors__row-bottom {
+    margin-top: 0;
+    gap: 22rem;
+    margin-bottom: 40rem;
+    max-height: 260rem;
+  }
+}
+
+.donors__inner .donors__row-bottom .list__item {
+  border-radius: 10rem;
+  background: #FFF;
+  width: 249rem;
+  height: 123rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-bottom: 34rem;
+}
+
+@media (max-width: 1440px) {
+  .donors__inner .donors__row-bottom .list__item {
+    margin-bottom: 6rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .donors__inner .donors__row-bottom .list__item {
+    width: 145rem;
+    height: 71rem;
+    margin-bottom: 0;
+  }
+}
+
+.donors__inner .donors__row-bottom .list__item img {
+  width: 140rem;
+  height: 53rem;
+  -o-object-fit: contain;
+     object-fit: contain;
+}
+
+@media (max-width: 768px) {
+  .donors__inner .donors__row-bottom .list__item img {
+    width: 81.526rem;
+    height: 30.593rem;
+  }
+}
+
+.donors .donors__more-button {
+  margin-top: 74rem;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  cursor: pointer;
+}
+
+@media (max-width: 768px) {
+  .donors .donors__more-button {
+    margin-top: 50rem;
+  }
+}
+
+.donors .donors__more-button__inner {
+  background-color: transparent;
+  color: #475C6C;
+  font-size: 18rem;
+  font-weight: 700;
+  line-height: 120%;
+  padding: 18rem 24rem;
+  border-radius: 14rem;
+  border: 2rem solid #475C6C;
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
+}
+
+@media (max-width: 768px) {
+  .donors .donors__more-button__inner {
+    font-size: 14rem;
+    padding: 12rem 18rem;
+  }
+}
+
+.donors .donors__more-button__inner:hover {
+  color: var(--bg-color);
+  border: 2rem solid var(--bg-color);
+}
+/*# sourceMappingURL=styles.css.map */

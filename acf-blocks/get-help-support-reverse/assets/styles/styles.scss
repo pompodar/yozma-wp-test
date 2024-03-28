@@ -1,0 +1,195 @@
+.support-reverse {
+  &__inner {
+    margin-top: 71rem;
+    margin-bottom: 82rem;
+    min-height: 726rem;
+    display: flex;
+    flex-direction: row-reverse;
+
+    @media (max-width: 768px) {
+      min-height: 292rem;
+      margin-top: 52rem;
+      margin-bottom: 35rem;
+      flex-direction: column;
+    }
+
+    .support-reverse__row-left {
+      margin-left: auto;
+      position: relative;
+      display: flex;
+      gap: 14rem;
+     
+      @media (max-width: 768px) {
+        flex-direction: column;
+      }
+
+      .support-reverse__row-left__background-color {
+        width: 691rem;
+        height: 624rem;
+        clip-path: polygon(0 0, 100% 4%, 100% 100%, 1% 97%);
+        background: #0095A9;
+        position: absolute;
+        top: 0;
+        right: 0;
+        z-index: -1;
+
+        @media (max-width: 768px) {
+          width: 278.542rem;
+          height: 257.178rem;
+          right: 0;
+          top: 0;
+        }
+      }
+
+      .support-reverse__row-left__background-image {
+        width: 723.616rem;
+        height: 670.123rem;
+        z-index: 0;
+        position: absolute;
+        right: 60rem;
+        top: 68rem;
+        clip-path: polygon(0 0, 100% 8%, 96% 90%, 3% 100%);
+
+        @media (max-width: 768px) {
+          width: 291.69rem;
+          height: 270.127rem;
+          top: 27rem;
+          right: 26rem;
+        }
+      }
+    }
+  }
+
+  .support-reverse__row-right {
+    color: var(--footer-bg);
+
+    .support-reverse__heading {
+      font-size: 48rem;
+      font-weight: 700;
+      margin-top: 120rem;
+      display: inline-block;
+      padding-bottom: 30rem;
+      position: relative;
+
+      @media (max-width: 768px) {
+        margin-top: 369rem;
+        font-size: 28rem;
+        padding-bottom: 20rem;
+      }
+
+      &::before {
+        content: "";
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        width: 81.5rem;
+        height: 5rem;
+        background-color: #D54443;
+
+        @media (max-width: 768px) {
+          height: 3rem;
+        }
+      }
+    }
+
+    .support-reverse__paragraph {
+      font-size: 24rem;
+      line-height: 120%;
+      max-width: 680rem;
+      margin-top: 48rem;
+      margin-bottom: 31rem;
+      color: var(--main-color);
+
+      @media (max-width: 768px) {
+        font-size: 16rem;
+        margin-top: 26rem;
+        margin-bottom: 15rem;
+      }
+    }
+
+    .support-reverse__paragraph-two, .support-reverse__paragraph-three {
+      font-size: 18rem;
+      margin-block: 25rem;
+      margin-bottom: 92rem;
+      color: var(--main-color);
+
+      @media (max-width: 768px) {
+        font-size: 14rem;
+        margin-block: 15rem;
+      }
+    }
+
+    .support-reverse__buttons {
+      display: flex;
+      gap: 28rem;
+
+      @media (max-width: 768px) {
+        margin-top: 42rem;
+        gap: 14rem;
+        flex-direction: column;
+      }
+    }
+
+    .support-reverse__button {
+      width: max-content;
+      text-align: center;
+      padding: 18px 24px;
+      padding-right: 62rem;
+      border-radius: 14rem;
+      border: 2rem solid var(--footer-bg);
+      font-size: 18rem;
+      font-weight: 700;
+      line-height: 120%;
+      color: var(--footer-bg);
+      display: inline-block;
+      transition: all 0.5s;
+      position: relative;
+
+      @media (max-width: 768px) {
+        padding: 12rem 18rem;
+        padding-right: 56rem;
+        border-radius: 10rem;
+        font-size: 14rem;
+      }
+
+      &:hover {
+        color: var(--bg-color);
+        border: 2rem solid var(--bg-color);
+      }
+
+      &.no-hover {
+        border: 2rem solid var(--footer-bg);
+        color: var(--footer-bg);
+      }
+
+      &::after {
+        content: "";
+        background: url("../../../../assets/images/arrow-circle-down.svg") no-repeat;
+        width: 24rem;
+        height: 24rem;
+        display: inline-block;
+        background-size: contain;
+        margin-left: 18rem;
+        position: absolute;
+
+        @media (max-width: 768px) {
+          width: 20rem;
+          height: 20rem;
+        }
+      }
+
+      &:hover:after {
+        background: url("../../../../assets/images/slider-right-arrow-red.svg") no-repeat;
+        background-size: contain;
+        transition: all 0.5s;
+        transform: rotate(90deg);
+      }
+
+      &.no-hover:after {
+        background: url("../../../../assets/images/arrow-circle-down.svg") no-repeat;
+        background-size: contain;
+        transform: rotate(0deg);
+      }
+    }
+  }
+}

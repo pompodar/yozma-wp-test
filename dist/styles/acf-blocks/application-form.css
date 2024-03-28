@@ -1,0 +1,77 @@
+.video .container {
+  padding: 0;
+}
+@media (max-width: 768px) {
+  .video .container {
+    padding: 0 24rem;
+  }
+}
+.video__inner {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: 73rem 250rem;
+}
+@media (max-width: 768px) {
+  .video__inner {
+    margin: 38rem 0;
+  }
+}
+.video__inner .video__video {
+  position: relative;
+  width: 100%;
+}
+.video__inner .video__video #video-play {
+  background: url(data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTk3IiBoZWlnaHQ9Ijc4IiB2aWV3Qm94PSIwIDAgMTk3IDc4IiBmaWxsPSJub25lIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPgo8cmVjdCB4PSIxLjUiIHk9IjEuNSIgd2lkdGg9IjE5NCIgaGVpZ2h0PSI3NC43NDMzIiByeD0iMzcuMzcxNiIgc3Ryb2tlPSJ3aGl0ZSIgc3Ryb2tlLXdpZHRoPSIzIi8+CjxwYXRoIGQ9Ik0xMTIuNDgyIDM2LjM3NTJDMTE0LjI2NyAzNy41NjIzIDExNC4yNjcgNDAuMTgzNyAxMTIuNDgyIDQxLjM3MDhMOTQuODU4NyA1My4wOTQzQzkyLjg2NDggNTQuNDIwNiA5MC4xOTcxIDUyLjk5MTEgOTAuMTk3MSA1MC41OTY0TDkwLjE5NzEgMjcuMTQ5NkM5MC4xOTcxIDI0Ljc1NDkgOTIuODY0OCAyMy4zMjU0IDk0Ljg1ODcgMjQuNjUxOEwxMTIuNDgyIDM2LjM3NTJaIiBmaWxsPSJ3aGl0ZSIvPgo8L3N2Zz4K) no-repeat;
+  width: 197rem;
+  height: 77.743rem;
+  position: absolute;
+  background-size: contain;
+  top: 50%;
+  left: 50%;
+  z-index: 1;
+  -webkit-transform: translate(-50%, -50%);
+       -o-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  cursor: pointer;
+}
+@media (max-width: 768px) {
+  .video__inner .video__video #video-play {
+    width: 79rem;
+    height: 31rem;
+  }
+}
+.video__inner .video__video #video-play.clicked {
+  display: none;
+}
+.video__inner .video__video .video__video__background {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
+.video__inner .video__video .video__video__background img {
+  margin: 0;
+  width: 100%;
+}
+.video__inner .video__video .video__video__background.hidden {
+  display: none;
+}
+.video__inner .video__video iframe {
+  width: 100%;
+  height: 706.818rem;
+}
+@media (max-width: 768px) {
+  .video__inner .video__video iframe {
+    height: 175.859rem;
+  }
+}
+
+/*# sourceMappingURL=application-form.css.map*/
